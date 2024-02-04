@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bubble Sorter</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div id="heading">Bubble Sorter</div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script src="game.js"></script>
+        <div class="controls">
+            <div class="button-list">
+                <button id="start" onclick="Trigger(event);">Start</button>
+                <button id="reset" onclick="Reset(event);">Reset</button>
+                <button onclick="speedUp();">Speed Up</button>
+                <button onclick="slowDown();">Slow Down</button>
+                <input type="text" id="speed" value="Delay: 20" />
+            </div>
+            <div class="input-list">
+                <input
+                    type="text"
+                    id="input"
+                    placeholder="Enter Comma Separated Values"
+                />
+                <input
+                    type="text"
+                    id="output"
+                    placeholder="Result Appears Here"
+                />
+            </div>
+        </div>
+        <div class="description">
+            <p>
+                This Application is a visual representation of the Bubble Sort
+                Algorithm. Enter a series of values separated by commas in the
+                input box. Click on Start to see the algorithm in action. The
+                result will appear in the output box.
+            </p>
+            <p>
+                You can use the Reset Button to reset the screen to its original
+                state with the input data. You can also use the Speed Up and
+                Slow Down buttons to adjust the process speed!
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8f34eb;
+}
+
+canvas {
+    border: 1px solid #8f34eb;
+    padding: 20px;
+}
+
+#heading {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-family: inherit;
+    background-color: #8f34eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6f1dcb;
+}
+
+.controls {
+    border: 1px solid #8f34eb;
+    width: 800px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+input {
+    width: 100%;
+    font-family: inherit;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: 1px solid #8f34eb;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#speed {
+    height: 48px;
+    width: 100px;
+}
+.description {
+    border: 1px solid #8f34eb;
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0px;
+    color: black;
+}
